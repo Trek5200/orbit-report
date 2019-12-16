@@ -33,6 +33,7 @@ export class AppComponent {
  
  }
 
+ 
   // constructor() {
   //   this.sourceList = [
   //      new Satellite("SiriusXM", "Communication", "2009-03-21", "LOW", true),
@@ -43,5 +44,3 @@ export class AppComponent {
   //   ];
   // }
 }
-
-
