@@ -1,4 +1,4 @@
-<p>orbit-list works!</p>
+<!-- <p>orbit-list works!</p> -->
 
 <h3>Orbit Report</h3>
 <table>
@@ -11,7 +11,10 @@
     </tr>
     <tr class="data-row" *ngFor="let satellite of satellites">
         <td>{{satellite.name}}</td>
-        <td>{{satellite}}</td>      
+        <td>{{satellite.type}}</td> 
+        <td>{{satellite.operational}}</td>
+        <td>{{satellite.orbitType}}</td> 
+        <td>{{satellite.launchDate}}</td>      
     </tr>
 </table>
 <!-- name: string, type: string, launchDate: string, orbitType: string, operational: boolean --> 
