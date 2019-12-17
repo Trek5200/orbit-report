@@ -16,7 +16,7 @@ export class Satellite {
     // 6)modified here
     shouldShowWarning():boolean{
         console.log("shouldShowWarning")
-    if(this.type === "Space Debris"){
+    if(this.type.toLowerCase() === "space debris"){
         console.log("shouldShowWarning = TRUE")
     return true;
     } else {
