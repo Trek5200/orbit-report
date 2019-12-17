@@ -15,12 +15,12 @@ export class Satellite {
     
     // 6)modified here
     shouldShowWarning():boolean{
-        console.log("shouldShowWarning")
+        // console.log("shouldShowWarning")
     if(this.type.toLowerCase() === "space debris"){
-        console.log("shouldShowWarning = TRUE")
+        // console.log("shouldShowWarning = TRUE")
     return true;
     } else {
-        console.log("shouldShowWarning = FALSE")
+        // console.log("shouldShowWarning = FALSE")
     return false;
     }
     }
