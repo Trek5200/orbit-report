@@ -29,3 +29,11 @@ th, td {
     margin: 5px 10px;
     padding: 6px;
 }
+
+.data-row:nth-child(odd) {
+    background-color: orange;
+}
+
+/* .data-r0w:nth-child(even) {
+    background-color: lightblue;
+} */
